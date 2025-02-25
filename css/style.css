@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+/* --------------------------------
+ * Variables
+ * -------------------------------- */
 /* --------------------------------
 * Base
 * -------------------------------- */
@@ -15,6 +17,7 @@ body {
   color: #3f3f46;
   font-size: 1.6rem;
   font-family: "Inter", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +32,7 @@ a:link, a:visited, a:hover, a:active {
 
 .keyfontStyle {
   font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
 }
@@ -903,6 +907,9 @@ body > section {
  * Responsive CSS (max-width: 768px)
  * -------------------------------- */
 @media (max-width: 768px) {
+  .logo .logo-title {
+    font-size: 4.8rem;
+  }
   .text-bold {
     margin: 20px 0 10px;
   }

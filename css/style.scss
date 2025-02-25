@@ -821,6 +821,11 @@ body > section{
  * Responsive CSS (max-width: 768px)
  * -------------------------------- */
 @media (max-width: 768px){
+	.logo{
+		.logo-title{
+			font-size: 4.8rem;
+		}
+	}
 	.text-bold{
 		margin: 20px 0 10px; 
 	}
